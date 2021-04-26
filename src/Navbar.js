@@ -12,24 +12,16 @@ function Navbar() {
 
     return (
     
-        
-        <div className="navbar">            
-
-            <div className="middle">
-                <ul>
-                    <Link style={navStyle} to="/">
-                        <li className="navitems">Home </li>
+                <div className="navbar">               
+                    <Link className="navitems" style={navStyle} to="/">
+                        Home 
                     </Link>  
-
-                    <Link style={navStyle} to="/about">        
-                    <li className="navitems">About </li>
-                    </Link> 
-
-                    <Link style={navStyle} to="/">  
-                        <li className="navitems">Projects </li>
+                    <Link className="navitems" style={navStyle} to="/about">About</Link> 
+                    <Link className="navitems" style={navStyle} to="/">  
+                        Projects
                     </Link>  
-                </ul>               
-            </div>            
+                              
+                    
             
         </div>
     )

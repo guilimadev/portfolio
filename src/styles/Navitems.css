@@ -5,9 +5,7 @@
   font-size: x-large;
   cursor: pointer;
   text-align: center;
-  height: 100%;
   color: white;
-  margin-right: 50px;
   width: 100px;
 
   -webkit-transition: border 1s ease-out;
