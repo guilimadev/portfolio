@@ -1,0 +1,27 @@
+.navitems {
+  list-style: none;
+  border-bottom: 4px solid rgb(11, 4, 19);
+  font-family: "Titillium Web", sans-serif;
+  font-size: x-large;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+  color: white;
+  margin-right: 50px;
+  width: 100px;
+
+  -webkit-transition: border 1s ease-out;
+  -moz-transition: border 1s ease-out;
+  -o-transition: border 1s ease-out;
+  transition: border 500ms ease-out;
+}
+
+.navitems:hover {
+  border-bottom: 4px solid rgb(4, 128, 174);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,600;1,200&display=swap");
+
+.navitems::-webkit-scrollbar {
+  display: none;
+}

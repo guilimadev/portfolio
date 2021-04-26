@@ -1,0 +1,98 @@
+.body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90vh;
+  padding-left: 10px;
+}
+
+.subtitle {
+  flex: 0.2;
+  font-size: 1.2em;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+  align-self: center;
+}
+.perfil_nome {
+  flex: 0.2;
+  font-size: 4em;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.125em;
+  align-self: center;
+}
+
+.perfil_foto {
+  flex: 0.2;
+  align-self: center;
+  border-radius: 200px;
+  border: #fdfdfd solid;
+  max-width: 20%;
+  object-fit: contain;
+  box-shadow: 5px 5px 50px black;
+}
+
+.perfil_texto {
+  flex: 0.4;
+  font-size: 20px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+  align-self: center;
+  text-align: left;
+  max-width: 500px;
+}
+
+@media all and (max-width: 800px) {
+  .body {
+    margin-top: 18%;
+  }
+
+  .perfil_foto {
+    max-width: 40%;
+    border-radius: 200px;
+  }
+
+  .subtitle {
+    font-size: 2em;
+  }
+
+  .perfil_nome {
+    font-size: 3em;
+  }
+
+  .perfil_texto {
+    font-size: 1.5em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .body {
+    margin-top: 18%;
+  }
+
+  .perfil_foto {
+    max-width: 50%;
+    border-radius: 100px;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  .perfil_nome {
+    font-size: 2em;
+  }
+
+  .perfil_texto {
+    font-size: 1.5em;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap");
