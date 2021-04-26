@@ -13,15 +13,9 @@ function Navbar() {
     return (
     
                 <div className="navbar">               
-                    <Link className="navitems" style={navStyle} to="/">
-                        Home 
-                    </Link>  
+                    <Link className="navitems" style={navStyle} to="/">Home</Link>  
                     <Link className="navitems" style={navStyle} to="/about">About</Link> 
-                    <Link className="navitems" style={navStyle} to="/">  
-                        Projects
-                    </Link>  
-                              
-                    
+                    <Link className="navitems" style={navStyle} to="/projects">Projects</Link> 
             
         </div>
     )
