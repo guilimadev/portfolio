@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   padding-left: 10px;
+  width: 100%;
 }
 
 .subtitle {
