@@ -1,5 +1,5 @@
 .navbar {
-  top: 0;
+  flex: 0.2;
   display: flex;
   justify-content: space-around;
   padding-left: 10px;
