@@ -48,7 +48,7 @@ export default function ControlledAccordions() {
           <Typography className={classes.heading}>Spotify Clone</Typography>
           <Typography className={classes.secondaryHeading}>Curso: Clever Programming</Typography>
         </AccordionSummary>
-        <AccordionDetails style={{backgroundColor: 'white', color: 'rgb(11, 4, 19)'}}>
+        <AccordionDetails style={{backgroundColor: 'rgb(19 13 31)', color: 'white)'}}>
           <Typography>Exemplo de um pequeno clone de Spotify, onde inclui Context API, Material UI, Flexbox, User Authentication e a API do Spotify.
             <br /><a href="https://spotify-clone-guilimadev.vercel.app/" target="_blank">Spotify Clone</a>
           </Typography>
