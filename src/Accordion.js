@@ -22,6 +22,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(15),
     
   }, 
+  accordion: {
+    width: '100%',  
+    backgroundColor: 'rgb(11, 4, 19)', 
+    color: 'white',
+  }
 }));
 
 export default function ControlledAccordions() {
@@ -34,9 +39,9 @@ export default function ControlledAccordions() {
 
   return (
     <div className={classes.root}>
-      <Accordion className={classes.root} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion className={classes.accordion} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon style={{fill: 'white'}} />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >

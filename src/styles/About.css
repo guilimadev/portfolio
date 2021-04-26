@@ -11,7 +11,8 @@
 }
 .sobre {
   color: white;
-  max-width: 50%;
+  max-width: 75%;
+  text-align: justify;
 }
 .pixel {
   max-width: 150px;
@@ -25,7 +26,7 @@
   font-style: normal;
   text-align: center;
   align-self: center;
-  text-align: left;
+  text-align: center;
 }
 .about::-webkit-scrollbar {
   display: none;
