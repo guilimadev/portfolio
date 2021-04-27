@@ -1,16 +1,18 @@
 import React from 'react'
 import Navbar from './Navbar'
 import './styles/Main.css';
-import Accordion from './Accordion';
+import AccordionReact from './AccordionReact';
+import AccordionFlutter from './AccordionFlutter';
 import coding from './imgs/coding2.gif'
+import logo from './imgs/logo.png';
 
 function Projects() {
     return (
         <div className="main">
             <Navbar />
-            <h4 style={{color: 'white', maxWidth: '75%'}}>Deixarei aqui alguns exemplos que irei fazendo nessa jornada de aprendizado</h4>
-            <img style={{maxWidth: '10%' }} src={coding}></img>
-            <Accordion />
+            <img style={{maxWidth: '120px', color: 'white' }} src={coding} alt=" "></img>
+            <h4 style={{color: 'white', maxWidth: '75%'}}>Exemplos focados em React.js: </h4>            
+            <AccordionReact />            
         </div>
     )
 }
