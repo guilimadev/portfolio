@@ -55,11 +55,11 @@ export default function ControlledAccordions() {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion className={classes.accordion} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion className={classes.accordion} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon style={{fill: 'white'}} />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
+          aria-controls="panel2bh-content"
+          id="panel2bh-header"
         >
           <Typography className={classes.heading}>Hulu Clone</Typography>
           <Typography className={classes.secondaryHeading}>Curso: Sonny Sangha</Typography>
