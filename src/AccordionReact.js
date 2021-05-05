@@ -54,6 +54,23 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion className={classes.accordion} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon style={{fill: 'white'}} />}
+          aria-controls="panel1bh-content"
+          id="panel1bh-header"
+        >
+          <Typography className={classes.heading}>Hulu Clone</Typography>
+          <Typography className={classes.secondaryHeading}>Curso: Sonny Sangha</Typography>
+        </AccordionSummary>
+        <AccordionDetails style={{backgroundColor: 'rgb(19 13 31)', color: 'white)'}}>
+          <Typography>Exemplo da front page do aplicativo Hulu, com integração com a API do The Movie DB. Utilização de Tailwind.css, Next.js e é completamente
+            responsivo. Aplicação de Lazy Loading, Hero Icons e mais várias funções do Next.js.
+            <br /><a href="https://hulu-clone-guilimadev.vercel.app/" target="_blank">Hulu Clone</a>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
          </div>
   );
 }
