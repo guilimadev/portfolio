@@ -71,6 +71,23 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion className={classes.accordion} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon style={{fill: 'white'}} />}
+          aria-controls="panel3bh-content"
+          id="panel3bh-header"
+        >
+          <Typography className={classes.heading}>Covid Tracker</Typography>
+          <Typography className={classes.secondaryHeading}>Curso: JavaScript Mastery</Typography>
+        </AccordionSummary>
+        <AccordionDetails style={{backgroundColor: 'rgb(19 13 31)', color: 'white)'}}>
+          <Typography>Covid tracker é uma aplicação que mostra as informações sobre a Covid-19 em um âmbito global como também por país. Utilização de Material UI, Axios para consumo de API
+            e React Hooks.
+            <br /><a href="https://covid-tracker-guilimadev.vercel.app/" target="_blank">Covid Tracker</a>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
          </div>
   );
 }
