@@ -88,6 +88,23 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion className={classes.accordion} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon style={{fill: 'white'}} />}
+          aria-controls="panel4bh-content"
+          id="panel4h-header"
+        >
+          <Typography className={classes.heading}>Weather App</Typography>
+          <Typography className={classes.secondaryHeading}>Curso: Tyler Potts</Typography>
+        </AccordionSummary>
+        <AccordionDetails style={{backgroundColor: 'rgb(19 13 31)', color: 'white)'}}>
+          <Typography>Weather app é um aplicativo simples que utiliza da API da OpenWeatherMap para mostrar de uma forma dinâmica as temperaturas de determinada cidade. Consumo de API com fetch
+            <br /><a href="https://weather-app-guilimadev.vercel.app/" target="_blank">Weather App</a>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
          </div>
   );
 }
